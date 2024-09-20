@@ -3,8 +3,8 @@
 
 
 **For task 1 and 2**
-Install Python (if not already installed):
- Execute the scripts as needed in the terminal:
+ 1.Install Python (if not already installed):
+ 2.Execute the scripts as needed in the terminal:
 
   -python assign1.py
   -python assign2.py
