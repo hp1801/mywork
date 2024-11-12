@@ -1,10 +1,4 @@
-"""
-Personal Finance Tracker
-Hir Patel
-GitHub:hp1801  edX:Hir_patel
-Ahmedabad,India
-17-07-2024
-"""
+
 
 
 
