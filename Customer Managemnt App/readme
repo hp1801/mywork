@@ -1,0 +1,5 @@
+Technologies used: Python,Django,HTML,CSS,Javascript,Bootstrap
+This Django-based customer management system allows administrators to efficiently manage customer orders and information.
+The application provides a secure login system for administrators, who can then view and manage all order statuses, create new customer profiles, and oversee order management.
+Additionally, customers can log in to view their own order history and status, providing a seamless and transparent experience.
+The system streamlines customer management and order tracking,making it an essential tool for businesses seeking to enhance customer satisfaction and loyalty.
