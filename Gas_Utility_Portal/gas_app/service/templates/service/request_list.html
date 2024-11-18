@@ -1,0 +1,23 @@
+{% extends 'gas_app/base.html' %}
+
+{% block content %}
+<h1>Your Service Requests</h1>
+{% if no_requests %}
+    <p>You have no service requests yet.</p>
+{% else %}
+    <table>
+        <tr>
+            <th>Service Type</th>
+            <th>Description</th>
+            <th>Status</th>
+        </tr>
+        {% for service in services %}
+        <tr>
+            <td>{{ service.service_type }}</td>
+            <td>{{ service.description }}</td>
+            <td>{{ service.status }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+{% endif %}
+{% endblock %}

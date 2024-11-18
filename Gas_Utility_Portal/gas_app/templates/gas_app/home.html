@@ -1,0 +1,17 @@
+{% extends 'gas_app/base.html' %}
+
+{% block content %}
+  <h1>Welcome to the Gas Utility Portal</h1>
+  {% if user.is_authenticated %}
+    <p>Hello, {{ user.username }}!</p>
+    {% if user.is_superuser %}
+      <p><a href="{% url 'service:view_all_requests' %}">View All Service Requests</a></p>  <!-- Link to all requests for admin -->
+    {% endif %}
+    <form method="post" action="{% url 'customer:logout' %}">
+        {% csrf_token %}
+        <button type="submit">Logout</button>
+    </form>
+  {% else %}
+    <p><a href="{% url 'customer:login' %}">Login</a> | <a href="{% url 'customer:register' %}">Register</a></p>
+  {% endif %}
+{% endblock %}

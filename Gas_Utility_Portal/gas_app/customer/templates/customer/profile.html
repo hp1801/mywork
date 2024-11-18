@@ -1,0 +1,10 @@
+{% extends "gas_app/base.html" %}
+{% block content %}
+<h1>Welcome, {{ user.username }}!</h1>
+<p>Account Number: {{ user.customer.account_number }}</p>
+<p>Contact Number: {{ user.customer.contact_number }}</p>
+<p>Address: {{ user.customer.address }}</p>
+
+{% endblock %}
+
+
