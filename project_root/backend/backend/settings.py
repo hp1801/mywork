@@ -81,7 +81,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'speedometer_db',
         'USER': 'root',  # Replace with your MySQL username
-        'PASSWORD': 'Hi@180103',  # Replace with your MySQL password
+        'PASSWORD': '',  # Replace with your MySQL password
         'HOST': 'db',  # Docker service name for MySQL
         'PORT': '3306',
     }
