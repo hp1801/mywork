@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speedometer</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'speedometer/style.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Speedometer</h1>
+        <div class="speed-display">
+            <h2 id="current-speed">0 km/h</h2>
+        </div>
+        <h3>Recent Speeds:</h3>
+        <ul id="speed-list">
+            {% for speed in speeds %}
+                <li>{{ speed.speed }} km/h at {{ speed.timestamp }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <script src="{% static 'speedometer/script.js' %}"></script>
+</body>
+</html>
