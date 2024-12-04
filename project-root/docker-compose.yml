@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+    depends_on:
+      - db
+
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app
+    depends_on:
+      - backend
+
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_DATABASE: speedometer_db
+      MYSQL_ROOT_PASSWORD: rootpassword
+    ports:
+      - "3307:3306"
