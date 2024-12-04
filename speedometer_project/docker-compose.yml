@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_DATABASE: speedometer_db  # Database that will be created
+      MYSQL_ROOT_PASSWORD: MySecureRootPassword123!  # Strong root password
+      MYSQL_USER: myuser  # Custom username
+      MYSQL_PASSWORD: MySecureUserPassword456!  # Strong user password
+    ports:
+      - "3307:3306"  # Map host port 3307 to container port 3306
+    networks:
+      - mynetwork 
+  
+  web:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    environment:
+      - DATABASE_URL=mysql://myuser:MySecureUserPassword456!@db/speedometer_db
+    networks:
+      - mynetwork 
+
+
+networks:
+  mynetwork: 

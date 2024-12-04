@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.speed-display {
+    font-size: 48px;
+    margin: 20px;
+}
+
+form {
+    margin: 20px;
+}
+
+input[type="number"] {
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+}
