@@ -10,23 +10,18 @@ A Flask-based Library Management System with CRUD operations for books and membe
 
 ## Installation
 1. Clone the repository
+    -python -m venv venv
+    -On Windows:
+    venv\Scripts\activate
+    -On macOS/Linux:
+     source venv/bin/activate
 2. Create a virtual environment (optional but recommended)
 3. Install dependencies
-```bash
-pip install -r requirements.txt
+-pip install -r requirements.txt
 
 
 
----
-
-### **7. API Endpoints**
-Document the API endpoints with their functionality.
-
-```markdown
-
-
-
-##API Endpoints
+## API Endpoints
 
 ### **Books**
 
@@ -43,3 +38,10 @@ Document the API endpoints with their functionality.
 - `GET /members/<id>`: Retrieve details of a specific member.
 - `PUT /members/<id>`: Update a member's details.
 - `DELETE /members/<id>`: Delete a member.
+
+
+
+
+## Run the application:
+
+-python app.py
