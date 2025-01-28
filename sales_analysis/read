@@ -1,0 +1,8 @@
+dataset link: https://www.kaggle.com/datasets/beekiran/sales-data-analysis?resource=download
+Technologies used: Python,Jupyter Notebook,Pandas,Matplotlib
+This project involves analyzing a sales dataset using Python and its popular libraries, Pandas and Matplotlib in Jupyter Notebook. 
+The code loads the dataset, explores the data, and performs various analyses, including calculating total sales, identifying top-selling products and customers,
+and visualizing sales distributions across different hours of the day and cities.
+Additionally, it examines the relationship between product price and quantity ordered.
+
+

@@ -1,0 +1,23 @@
+{% extends 'gas_app/base.html' %}
+
+{% block content %}
+<h1>All Service Requests</h1>
+<table>
+    <tr>
+        <th>Customer</th>
+        <th>Service Type</th>
+        <th>Description</th>
+        <th>Status</th>
+        <th>Submitted At</th>
+    </tr>
+    {% for request in requests %}
+    <tr>
+        <td>{{ request.customer.user.username }}</td>
+        <td>{{ request.service_type }}</td>
+        <td>{{ request.description }}</td>
+        <td>{{ request.status }}</td>
+        <td>{{ request.created_at }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}

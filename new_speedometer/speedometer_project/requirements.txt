@@ -1,0 +1,28 @@
+Django>=4.0,<5.0
+mysqlclient>=2.0,<3.0
+
+using your own mysqlpassword
+
+
+1. Create the MySQL Database
+Create a database and a table to store speed data.
+sql
+CREATE DATABASE speedometer_db;
+
+USE speedometer_db;
+
+CREATE TABLE speed_data (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    speed FLOAT NOT NULL,
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+2. Backend (Django API)
+Create a new Django project and set up your environment:
+mkdir speedometer-backend
+cd speedometer-backend
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+pip install django djangorestframework mysqlclient channels
+django-admin startproject speedometer_project .
