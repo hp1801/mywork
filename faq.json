@@ -1,0 +1,64 @@
+{
+    "faqs": [
+        {
+            "question": "What is your return policy?",
+            "answer": "We offer a 30-day return policy for all products in original condition. Returns are free for defective items."
+        },
+        {
+            "question": "How long is shipping?",
+            "answer": "Standard shipping takes 3-5 business days within the US. Express shipping (1-2 days) is available at checkout."
+        },
+        {
+            "question": "Do you ship internationally?",
+            "answer": "Yes, we ship to most countries worldwide. International shipping typically takes 7-14 business days."
+        },
+        {
+            "question": "How can I track my order?",
+            "answer": "You'll receive a tracking number via email once your order ships. You can also track orders in your account dashboard."
+        },
+        {
+            "question": "What payment methods do you accept?",
+            "answer": "We accept Visa, Mastercard, American Express, PayPal, and Apple Pay. All transactions are secure and encrypted."
+        },
+        {
+            "question": "How do I contact customer service?",
+            "answer": "You can reach our customer service team via email at support@example.com or by phone at 1-800-123-4567, Monday to Friday, 9 AM to 5 PM EST."
+        },
+        {
+            "question": "Do you offer gift wrapping?",
+            "answer": "Yes, we offer gift wrapping for $5 per item. You can select this option during checkout and include a personalized message."
+        },
+        {
+            "question": "What is your warranty policy?",
+            "answer": "All products come with a 1-year warranty against manufacturing defects. Extended warranty options are available for purchase."
+        },
+        {
+            "question": "Do you have a size guide?",
+            "answer": "Yes, you can find our detailed size guide on each product page. We recommend measuring yourself before ordering."
+        },
+        {
+            "question": "Can I modify or cancel my order?",
+            "answer": "Orders can be modified or cancelled within 1 hour of placement. Contact customer service for assistance."
+        },
+        {
+            "question": "Do you offer bulk discounts?",
+            "answer": "Yes, we offer discounts for bulk orders of 10 or more items. Contact our sales team for a custom quote."
+        },
+        {
+            "question": "What is your privacy policy?",
+            "answer": "We never share your personal information with third parties. View our complete privacy policy on our website."
+        },
+        {
+            "question": "Do you have physical stores?",
+            "answer": "Yes, we have stores in major cities across the US. Use our store locator on the website to find the nearest location."
+        },
+        {
+            "question": "How do I create an account?",
+            "answer": "Click the 'Sign Up' button in the top right corner of our website. You'll need an email address and password."
+        },
+        {
+            "question": "Do you offer student discounts?",
+            "answer": "Yes, students get 10% off with verified .edu email addresses. Sign up through our student verification system."
+        }
+    ]
+}
