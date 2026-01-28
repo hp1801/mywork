@@ -1,7 +1,7 @@
 # Mystery Delivery System – Python Assignment
 
 ## 📦 Overview
-This project simulates one day of operations for a fictional logistics company called **FastBox**.  
+This project simulates one day of operations for a fictional logistics company .  
 The system assigns packages to delivery agents based on proximity, simulates deliveries, and generates a performance report.
 
 The solution prioritizes **correctness, simplicity, and robustness**, and includes one optional bonus feature.
